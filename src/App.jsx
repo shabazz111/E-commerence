@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Orders from "./pages/Orders";
 import Login from "./pages/Login";
-import Placeorder from "./pages/Placeorder";
 import Collection from "./pages/Collection";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -14,6 +13,7 @@ import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Placeorder from "./pages/PlaceOrder";
 
 const App = () => {
   return (
